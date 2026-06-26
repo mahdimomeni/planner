@@ -140,17 +140,3 @@ FastAPI generates rich interface documentation profiles natively. Once the grid 
 
 * Interactive Swagger UI: `http://127.0.0.1:8000/docs`
 * Alternative Redoc Layout: `http://127.0.0.1:8000/redoc`
-
----
-
-## 💡 Interview Talking Points for Portfolio Showcasing
-
-When presenting this backend infrastructure to technical recruiters or engineering managers, emphasize these parameters:
-
-1. **Optimistic State Strategy Support:** Patch endpoints return specialized structural schemas enabling frontend targets to resolve data layouts instantaneously on the UI layout while backend processing validation works asynchronously.
-2. **Stateless Algorithmic Isolation:** Isolating calculation parameters entirely inside `app/services/planner.py` allows this scheduling component to be unit-tested without opening network sockets or live active data connections.
-3. **Data Schema Granularity:** Splitting structural configurations across `models.py` (SQL rules) and `schemas/` (HTTP constraints) provides double-layer verification against cross-site data corruptions or invalid entity bindings.
-
-```
-
-```
